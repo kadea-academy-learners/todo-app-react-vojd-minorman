@@ -9,7 +9,7 @@ interface TodoItemProps {
 
 function TodoItem(props: TodoItemProps) {
   return (
-    <div style={{ display: 'flex', alignItems: 'center' }}>
+    <div style={{ display: 'flex', alignItems: 'center', margin : '10px', borderBottom : '1px solid #ffff5' }}>
       <input
         type="checkbox"
         checked={props.isCompleted}
